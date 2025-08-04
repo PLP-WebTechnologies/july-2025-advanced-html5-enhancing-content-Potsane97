@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meshack Potsane - Web Project</title>
+</head>
+<body>
+
+  <header>
+    <h1>Meshack Potsane - Web Elements & Form Showcase</h1>
+    <p>Welcome! This page demonstrates my ability to use HTML5 lists, tables, media, and structured forms — reflecting my background as a Software Engineer and Data Science enthusiast.</p>
+  </header>
+
+  <section>
+    <h2>Skills & Interests</h2>
+    <ul>
+      <li>Software Engineering</li>
+      <li>Data Science & Machine Learning</li>
+      <li>Web Development</li>
+      <li>Data Visualization</li>
+      <li>Python, JavaScript, SQL</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Project Timeline</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Project</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>Customer Churn App (Streamlit)</td>
+          <td>Completed</td>
+        </tr>
+        <tr>
+          <td>March</td>
+          <td>E-commerce Dashboard</td>
+          <td>Completed</td>
+        </tr>
+        <tr>
+          <td>June</td>
+          <td>Portfolio Website</td>
+          <td>In Progress</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Media Samples</h2>
+    <p>Here's a sample video and a music track I like to code with:</p>
+
+    <video width="480" controls>
+      <source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <audio controls>
+      <source src="Ntate_Stunna_Fire.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section>
+    <h2>Contact Form</h2>
+    <form action="#" method="post" autocomplete="on">
+
+      <fieldset>
+        <legend>Personal Details</legend>
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="Meshaka Potsane" readonly />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="meshackpotsane97@gmail.com" />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+      </fieldset>
+
+      <fieldset>
+        <legend>Professional Info</legend>
+
+        <label for="field">Field of Expertise:</label>
+        <select id="field" name="field" required>
+          <option value="">-- Select --</option>
+          <option value="software">Software Engineering</option>
+          <option value="data">Data Science</option>
+          <option value="design">Graphic Design</option>
+        </select>
+
+        <label for="experience">Years of Experience:</label>
+        <input type="number" id="experience" name="experience" min="0" max="20" required />
+
+        <label for="portfolio">Portfolio URL:</label>
+        <input type="url" id="portfolio" name="portfolio" placeholder="https://github.com/Potsane97" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <label><input type="checkbox" name="updates" /> Receive updates via email</label><br/>
+        <label><input type="radio" name="contact" value="email" required /> Contact by Email</label><br/>
+        <label><input type="radio" name="contact" value="phone" required /> Contact by Phone</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Message</legend>
+        <label for="comments">Your Message:</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Write something..."></textarea>
+      </fieldset>
+
+      <input type="submit" value="Submit" />
+
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Meshack Potsane. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
